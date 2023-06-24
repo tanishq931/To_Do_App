@@ -1,13 +1,10 @@
 import 'dart:async';
 
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:lottie/lottie.dart';
 import 'package:to_do/UI/Home.dart';
-import 'package:to_do/backend/backend.dart';
 
 
 
@@ -46,6 +43,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 @override
+
+
+
   void initState() {
     // TODO: implement initState
     super.initState();
